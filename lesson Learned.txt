@@ -1,0 +1,25 @@
+Learned how to create server/client with asyncore module provided by python.
+
+With asyncore module, server creating becomes very easy.
+To create a server, need to create a channel by creating an instances of class asyncore.dispatcher.
+This adds the channel to a global map, used by the loop() function.
+once making a call to loop() function, it will start the channel service.
+
+Learned about asyncore module from python's documentation on python website.
+
+
+While using Twisted Python module to create a server, learned these things about Twisted module.
+Twisted module have implemented a number of protocols already, which means we can use this to 
+talk to remote server without worrying about implementation by ourself.
+
+Twisted can handle thousands of connections in a single thread, which tends
+ to work better than having thousands of threads, each for a single connection. Because of this,
+
+Also, With Twisted module, it's less coding to create the server, and Simple is better than complex which
+is one of the principal of The Zen of Python.
+
+Also, while working on this assignment, learned about modulazing the code, and how to write code
+in python by following it's principal.
+
+With unit testing module, covered the edge case of the code, so that code should run smoothly.
+With unit test, we always make sure, our code does what it is intended to do, and avoid run time exceptions.
