@@ -34,15 +34,14 @@
     3. Request without Header i.e. Without first 4 digits should throw an exception
     4. Request with more than 30 character should throw an exception
 
-Package:
-These files are zipped together:
+Source Files:
 AsyncServer.py
 TwsitedServer.py
 customRequestParser.py
 ClientThread.py
 ServerTest.py
 
-Please unzip the files to a location and though terminal reach to that location.
+Please download the files to a location and though terminal reach to that location.
 Once reached, please run the server and test as mentioned above.
 
 Note: Program have been written according to python 2.7, please use python 2.7 environment to run.
